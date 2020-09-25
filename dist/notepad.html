@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="../src/style.css">
+    <title>TheTailors-Notepad</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <p id="title">Notepad</p>
+            <img src="../src/profile.png" alt="profileImg" class="circle">
+        </div>
+
+        <div class="inputSpace">
+            <span id="searchIcon"><i class="fas fa-search"></i></span>
+            <span id="bars"><i class="fas fa-bars"></i></span>
+            <input type="text" id="search" name="search" placeholder="What are you looking for?">
+        </div>
+
+        <div class="content">
+            <div id="statusBox">
+                <div class="box white">
+                    <h5>All</h5>
+                    <span>41</span>
+                </div>
+                <div class="box skyblue">
+                    <h5>Pending</h5>
+                    <span>41</span>
+                </div>
+                <div class="box harsh">
+                    <h5>Completed</h5>
+                    <span>41</span>
+                </div>
+            </div>
+            <div id="quickMenu">
+                <div class="quickMenuTitle">
+                    <span class="menus">Quick Menu</span>
+                    <i class="fas fa-chevron-circle-down" id="collapsible"></i>
+                </div>
+                <div id="quickMenuOpt" class="quickMenuOpt show">
+                    <div class="icon">
+                        <a href="">
+                            <i class="fas fa-folder-plus"></i><br>
+                            <span class="iconText">New</span>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <i class="far fa-heart"></i><br>
+                            <span class="iconText">Favorite</span>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="">
+                            <i class="fas fa-check-double"></i><br>
+                            <span class="iconText">Pending</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="project">
+                <div id="projectTitle">
+                    <span class="menus">Projects</span>
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+                <div id="projectBlock"></div>
+
+            </div>
+
+        </div>
+        <!-- Footer Menu -->
+        <footer class="footerMenu">
+            <ul>
+                <li>
+                    <a href="/">
+                        <i class="fas fa-home"></i><br>
+                        <span class="menuItem">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="notepad.html">
+                        <i class="fas fa-sticky-note"></i><br>
+                        <span class="menuItem">Notepad</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Reminder.html">
+                        <i class="fas fa-bell"></i><br>
+                        <span class="menuItem">Reminder</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="search.html">
+                        <i class="fas fa-search"></i><br>
+                        <span class="menuItem">Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="user.html">
+                        <i class="fas fa-user"></i><br>
+                        <span class="menuItem">Profile</span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>
